@@ -1,5 +1,6 @@
 {
-	"name": "dictionary-web-app",
+	"homepage": "http://devanup.github.io/dictionary-app",
+	"name": "dictionary-app-fem",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
