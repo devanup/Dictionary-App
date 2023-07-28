@@ -1,0 +1,31 @@
+.part-of-speech span::after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	width: calc(100% - 30px);
+	top: 50%;
+	right: 0;
+	background-color: gainsboro;
+}
+.word-meaning ul {
+	margin-left: 20px;
+}
+li {
+	position: relative;
+	padding-left: 25px;
+}
+li::before {
+	position: absolute;
+	content: '';
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #a445ed;
+	top: 10px;
+	left: 0;
+	display: inline-block;
+}
+
+.synonyms span {
+	color: #a445ed;
+}

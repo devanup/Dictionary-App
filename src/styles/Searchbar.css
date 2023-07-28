@@ -1,0 +1,5 @@
+body.darkMode input {
+	/* transition: 0.2s ease border-color; */
+	background-color: #1f1f1f;
+	@apply placeholder:text-white placeholder:opacity-25;
+}

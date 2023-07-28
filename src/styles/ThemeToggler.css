@@ -1,0 +1,12 @@
+.moon-icon path {
+	transition: all 0.4s ease;
+	/* background-color: blue; */
+}
+
+.moon-icon:hover path {
+	stroke: #a445ed;
+}
+
+.moon-icon.moon-icon-active path {
+	stroke: #a445ed;
+}

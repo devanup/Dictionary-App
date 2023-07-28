@@ -1,0 +1,48 @@
+.word-and-phonetic {
+	display: flex;
+	flex-direction: column; /* Stack .word and .phonetic vertically */
+	align-items: flex-start; /* Align .word and .phonetic to the start of the container */
+	justify-content: space-between;
+	position: relative;
+}
+
+/* Move .pronounce to the right using auto margin */
+.pronounce {
+	/* margin-left: auto; */
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* PhoneticSection.css */
+
+/* Style the button inside .pronounce */
+.pronounce-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.pronounce-icon path,
+circle {
+	transition: all 0.3s ease; /* Add a transition for smooth color change */
+}
+
+/* Style the icon inside .pronounce-icon */
+.pronounce-icon path {
+	fill: #a445ed; /* Default color */
+}
+
+.pronounce-icon circle {
+	opacity: 0.25;
+}
+
+/* Change the fill color to yellow when hovering over .pronounce-icon */
+.pronounce-icon:hover path {
+	fill: white;
+}
+
+.pronounce-icon:hover circle {
+	opacity: 1;
+}

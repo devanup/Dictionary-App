@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+/* sans serif */
+@font-face {
+	font-family: 'inter';
+	src: url('../assets/fonts/inter/static/Inter-Regular.ttf');
+}
+@font-face {
+	font-family: 'inter-bold';
+	src: url('../assets/fonts/inter/static/Inter-Bold.ttf');
+}
+
+/* serif */
+@font-face {
+	font-family: 'lora';
+	src: url('../assets/fonts/lora/static/Lora-Regular.ttf');
+}
+@font-face {
+	font-family: 'lora-bold';
+	src: url('../assets/fonts/lora/static/Lora-Bold.ttf');
+}
+
+/* mono */
+@font-face {
+	font-family: 'inconsolata';
+	src: url('../assets/fonts/inconsolata/static/Inconsolata-Regular.ttf');
+}
+@font-face {
+	font-family: 'inconsolata-bold';
+	src: url('../assets/fonts/inconsolata/static/Inconsolata-Bold.ttf');
+}
