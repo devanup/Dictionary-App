@@ -6,7 +6,7 @@ import '../../src/styles/Header.css';
 export const Header = () => {
 	return (
 		<div className='header h-14 flex items-center justify-between '>
-			<a href='/'>
+			<a href='/dictionary-app/'>
 				<div className='logo '>
 					<h1 className='title text-3xl font-bold '>
 						<svg
