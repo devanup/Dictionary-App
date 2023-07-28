@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dictionary-app/static/css/main.b96c2414.css",
-    "main.js": "/dictionary-app/static/js/main.1f07fd03.js",
+    "main.js": "/dictionary-app/static/js/main.863e24a3.js",
     "static/media/Inter-Bold.ttf": "/dictionary-app/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-Regular.ttf": "/dictionary-app/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/Lora-Regular.ttf": "/dictionary-app/static/media/Lora-Regular.a85f0bab31bffada1e5f.ttf",
@@ -13,10 +13,10 @@
     "static/media/icon-moon.svg": "/dictionary-app/static/media/icon-moon.fd52e618de9fdb62d0edd814557c07e3.svg",
     "static/media/icon-play.svg": "/dictionary-app/static/media/icon-play.a659db0104303a8b8ae071e0cf90119d.svg",
     "main.b96c2414.css.map": "/dictionary-app/static/css/main.b96c2414.css.map",
-    "main.1f07fd03.js.map": "/dictionary-app/static/js/main.1f07fd03.js.map"
+    "main.863e24a3.js.map": "/dictionary-app/static/js/main.863e24a3.js.map"
   },
   "entrypoints": [
     "static/css/main.b96c2414.css",
-    "static/js/main.1f07fd03.js"
+    "static/js/main.863e24a3.js"
   ]
 }
